@@ -4,7 +4,7 @@
 
 
 
-![Headshot](https://user-images.githubusercontent.com/82967749/128939592-7a3ac53f-1fa7-4e12-bf39-a1ddcbc1f795.PNG)
+                                          ![Headshot](https://user-images.githubusercontent.com/82967749/128939592-7a3ac53f-1fa7-4e12-bf39-a1ddcbc1f795.PNG)
 
 
 
