@@ -29,5 +29,12 @@ The average temperature shown in the first visualization is a range from 56 degr
 **Conclusion**
 
 To conclude the analysis of the weatherData collected in Auckland New Zealand. There is moderate temperature. The average low temperature is on average 50 degrees Fahrenheit. The average temperature is 60 degrees Fahrenheit. The result of the analysis point to a conclusion that Auckland has temperate temperatures with seasonal variance. For the year 2016, there was only a small proportion of days where the temperature was below freezing. The majority of days experienced cool temperatures below 70 degrees. The results of this analysis can potentially be used for weather predictions and vacation planning.
+
+   **Tumor Data**
+
+## Introduction
+
+Our goal was to create two different models looking at the brca data set. The brca data looks at tumors. The models needed to predict if a tumor was benign or malignant. The models produce scores for three metrics accuracy, sensitivity, and specificity.  One model needed a 90% score on at least one metric and one model needed at least 90% score on all three metrics.
+
 ```
 
