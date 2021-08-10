@@ -1,4 +1,3 @@
-
 Projects Overview
 This potfolio contains Three projects. 
 1. New Zeland Weather
@@ -7,7 +6,7 @@ This potfolio contains Three projects.
 
 The porpuse of this portfolio is to showcase my past experiances in data science. 
 
-Project1: New Zealand Weather
+**New Zealand Weather**
 
 **Introduction**
 
