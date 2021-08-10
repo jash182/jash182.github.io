@@ -44,14 +44,14 @@ The visualization below looks at the x.radius_mean of tumors.
 
 
 The table below shows the three metrics that the model was evaluated on. It under performed in accuracy and sensitivity and performed well in specificity. Model 1 looked to see if the looked x.radius_mean was less than 35 and if x.texture_mean was less than 19. Model 1 can predict all benign tumors but is inaccurate in predicting malignant tumors.
-##        Actual
-## Predict   B   M
-##       0 357 140
-##       1   0  72
-##        Metric Value
-## 1    Accuracy 0.754
-## 2 Sensitivity 0.340
-## 3 Specificity 1.000
+      Actual
+Predict   B   M
+      0 357 140
+      1   0  72
+      Metric Value
+1    Accuracy 0.754
+2 Sensitivity 0.340
+3 Specificity 1.000
 
 
 **Model 2 Visualization**
@@ -63,14 +63,14 @@ Model 2 looks at the x.radius_mean and x.compactness_worst in its prediction.
 
 **Model 2 Results**
 The Model 2 looked to see if x.compactness_worst is less than .375 and if x.radius_mean is less than 15. This allowed Model 2 to have above 90% in all three metrics.
-##        Actual
-## Predict   B   M
-##       B 331  21
-##       M  26 191
-##        Metric Value
-## 1    Accuracy 0.917
-## 2 Sensitivity 0.901
-## 3 Specificity 0.927
+       Actual
+Predict   B   M
+      B 331  21
+      M  26 191
+       Metric Value
+1    Accuracy 0.917
+2 Sensitivity 0.901
+3 Specificity 0.927
 
 **Conclusion**
 We created two models that predicted if a tumor is benign or malignant. Using the x.radius_mean and x.compactness_worst allowed us to create a more accurate model. Model 2 performs better than model one in predicting if a tumor is benign or malignant.
