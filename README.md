@@ -30,11 +30,50 @@ The average temperature shown in the first visualization is a range from 56 degr
 
 To conclude the analysis of the weatherData collected in Auckland New Zealand. There is moderate temperature. The average low temperature is on average 50 degrees Fahrenheit. The average temperature is 60 degrees Fahrenheit. The result of the analysis point to a conclusion that Auckland has temperate temperatures with seasonal variance. For the year 2016, there was only a small proportion of days where the temperature was below freezing. The majority of days experienced cool temperatures below 70 degrees. The results of this analysis can potentially be used for weather predictions and vacation planning.
 
-   **Tumor Data**
+**Tumor Data**
 
-## Introduction
+**Introduction**
 
 Our goal was to create two different models looking at the brca data set. The brca data looks at tumors. The models needed to predict if a tumor was benign or malignant. The models produce scores for three metrics accuracy, sensitivity, and specificity.  One model needed a 90% score on at least one metric and one model needed at least 90% score on all three metrics.
+
+Model 1 Visualization
+The visualization below looks at the x.radius_mean of tumors.
+
+![Picture3](https://user-images.githubusercontent.com/82967749/128944059-fbf5f1f4-dd4c-4f16-ab82-de527a217525.png)
+
+
+
+The table below shows the three metrics that the model was evaluated on. It under performed in accuracy and sensitivity and performed well in specificity. Model 1 looked to see if the looked x.radius_mean was less than 35 and if x.texture_mean was less than 19. Model 1 can predict all benign tumors but is inaccurate in predicting malignant tumors.
+##        Actual
+## Predict   B   M
+##       0 357 140
+##       1   0  72
+##        Metric Value
+## 1    Accuracy 0.754
+## 2 Sensitivity 0.340
+## 3 Specificity 1.000
+
+
+**Model 2 Visualization**
+
+Model 2 looks at the x.radius_mean and x.compactness_worst in its prediction. 
+
+![Picture4](https://user-images.githubusercontent.com/82967749/128944152-4f509757-6e03-4db8-8b33-9010bf6f27e6.png)
+
+
+**Model 2 Results**
+The Model 2 looked to see if x.compactness_worst is less than .375 and if x.radius_mean is less than 15. This allowed Model 2 to have above 90% in all three metrics.
+##        Actual
+## Predict   B   M
+##       B 331  21
+##       M  26 191
+##        Metric Value
+## 1    Accuracy 0.917
+## 2 Sensitivity 0.901
+## 3 Specificity 0.927
+
+**Conclusion**
+We created two models that predicted if a tumor is benign or malignant. Using the x.radius_mean and x.compactness_worst allowed us to create a more accurate model. Model 2 performs better than model one in predicting if a tumor is benign or malignant.
 
 ```
 
