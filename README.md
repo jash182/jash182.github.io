@@ -1,5 +1,6 @@
-**Projects Overview
-This potfolio contains Three projects. **
+### Projects Overview
+**The following were created using R programming.**
+**This potfolio contains Three projects. **
 1. New Zeland Weather
 2. TumorData
 3. Age
