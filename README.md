@@ -1,4 +1,4 @@
-### Projects Overview
+## Projects Overview
 The porpuse of this portfolio is to showcase my past experiances in data science. 
 The follow are organized in section.
 
@@ -7,7 +7,9 @@ The follow are organized in section.
 3. SQL Server
 4. Python
 
-### New Zealand Weather
+## New Zealand Weather
+
+# R Programming
 
 **Introduction**
 
@@ -31,7 +33,7 @@ The average temperature shown in the first visualization is a range from 56 degr
 
 To conclude the analysis of the weatherData collected in Auckland New Zealand. There is moderate temperature. The average low temperature is on average 50 degrees Fahrenheit. The average temperature is 60 degrees Fahrenheit. The result of the analysis point to a conclusion that Auckland has temperate temperatures with seasonal variance. For the year 2016, there was only a small proportion of days where the temperature was below freezing. The majority of days experienced cool temperatures below 70 degrees. The results of this analysis can potentially be used for weather predictions and vacation planning.
 
-### Tumor Data
+## Tumor Data
 
 **Introduction**
 
@@ -77,7 +79,7 @@ Predict   B   M
 We created two models that predicted if a tumor is benign or malignant. Using the x.radius_mean and x.compactness_worst allowed us to create a more accurate model. Model 2 performs better than model one in predicting if a tumor is benign or malignant.
 
 
-### MICROSOFT ACCESS
+# MICROSOFT ACCESS
 
 SELECT SKU, SKU_Description, WarehouseID
 FROM INVENTORY
@@ -88,7 +90,7 @@ ORDER BY WarehouseID DESC , SKU;
 
 
 
-### Python
+# Python
 
 from tkinter import *
 window = Tk()
