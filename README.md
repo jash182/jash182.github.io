@@ -77,7 +77,7 @@ Predict   B   M
 We created two models that predicted if a tumor is benign or malignant. Using the x.radius_mean and x.compactness_worst allowed us to create a more accurate model. Model 2 performs better than model one in predicting if a tumor is benign or malignant.
 
 
-###MICROSOFT ACCESS
+### MICROSOFT ACCESS
 
 SELECT SKU, SKU_Description, WarehouseID
 FROM INVENTORY
@@ -88,7 +88,7 @@ ORDER BY WarehouseID DESC , SKU;
 
 
 
-###Python
+### Python
 
 from tkinter import *
 window = Tk()
