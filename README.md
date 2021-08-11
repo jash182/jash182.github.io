@@ -1,4 +1,4 @@
-## Projects Overview
+# Projects Overview
 The porpuse of this portfolio is to showcase my past experiances in data science. 
 The follow are organized in section.
 
@@ -7,9 +7,9 @@ The follow are organized in section.
 3. SQL Server
 4. Python
 
-## New Zealand Weather
-
 # R Programming
+
+## New Zealand Weather
 
 **Introduction**
 
