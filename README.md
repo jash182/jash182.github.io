@@ -77,5 +77,87 @@ Predict   B   M
 **Conclusion**
 We created two models that predicted if a tumor is benign or malignant. Using the x.radius_mean and x.compactness_worst allowed us to create a more accurate model. Model 2 performs better than model one in predicting if a tumor is benign or malignant.
 
+
+###Python
+
+from tkinter import *
+window = Tk()
+#I set the color to red and gave it a title
+window.configure(background = 'red')
+window.title('Dog Food')
+
+
+
+#This is my elis statments. This takes the dogs weight and places it into categories. 
+def multiply():
+    num1 = eval(conOFentFirst.get())
+    if num1 > 0 and num1 <= 14:
+        num2 = 1
+        product = 1
+        conOFentResult.set("   " + str(product))
+        
+    elif num1 >= 15  and num1 <= 35:
+        num1 = eval(conOFentFirst.get())
+        num2 = 3
+        product = 3
+        conOFentResult.set("   " + str(product))
+        
+    elif num1 >= 36  and num1 <= 100:
+        num1 = eval(conOFentFirst.get())
+        num2 = 3
+        product = 5
+        conOFentResult.set("   " + str(product))
+        
+  
+    else:
+        num1 = eval(conOFentFirst.get())
+        num2 = 2
+        product = "Error"
+        conOFentResult.set(" " + str(product))
+        
+        
+    
+        
+
+
+#diffrent photo added
+photo = PhotoImage(file = "PawPic.png")
+photoimage = photo.subsample(2, 2) 
+label = Button(window, image = photo) 
+label.grid(row=0, column=4,rowspan = 4,  padx=5, pady=5)
+
+#Here are the lables directing the user
+Label(window, text="Dog \nWeight", bg='red').grid(row=0, column= 0, padx=1, pady=5)
+Label(window, text="Cups of \nFood ", bg='red').grid(row=0, column=2, padx=1, pady=5)
+
+
+conOFentFirst = StringVar()
+entFirst = Entry(window, width= 10, textvariable=conOFentFirst)
+entFirst.grid(row=1, column=0)
+
+conOFentSecond = StringVar()
+entSecond = Entry(window, width= 5, textvariable=conOFentSecond)
+entSecond.grid(row=1, column=2)
+#I changed that claculator button to white and added text
+btnMultiply = Button(window, text='Calc', width=7, command=multiply, bg='white' )
+btnMultiply.grid(row=2, column=0, padx=15, pady=5)
+
+
+
+conOFentResult = StringVar()
+entResult = Entry(window, state="readonly", width= 10,textvariable=conOFentResult)
+entResult.grid(row= 1, column=2, columnspan=1, padx=20, pady=5)
+
+
+
+
+
+window.mainloop()
+
+
+![PythonDF](https://user-images.githubusercontent.com/82967749/129114851-fb9fa704-b750-46f0-b965-75cbce32792d.PNG)
+
+
+
 ```
 
