@@ -1,12 +1,11 @@
 ### Projects Overview
-**The following were created using R programming.**
-
-This potfolio contains Three projects. 
-1. New Zeland Weather
-2. TumorData
-3. Age
-
 The porpuse of this portfolio is to showcase my past experiances in data science. 
+The follow are organized in section.
+
+1. R Programming
+2. Access
+3. SQL Server
+4. Python
 
 ### New Zealand Weather
 
@@ -76,6 +75,17 @@ Predict   B   M
 
 **Conclusion**
 We created two models that predicted if a tumor is benign or malignant. Using the x.radius_mean and x.compactness_worst allowed us to create a more accurate model. Model 2 performs better than model one in predicting if a tumor is benign or malignant.
+
+
+###MICROSOFT ACCESS
+
+SELECT SKU, SKU_Description, WarehouseID
+FROM INVENTORY
+WHERE QuantityOnHand > 0
+ORDER BY WarehouseID DESC , SKU;
+
+![Access](https://user-images.githubusercontent.com/82967749/129115150-57e81ed7-c294-40f3-9a5c-2c0c79494263.PNG)
+
 
 
 ###Python
