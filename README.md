@@ -3,9 +3,9 @@ The porpuse of this portfolio is to showcase my past experiances in data science
 The follow are organized in section.
 
 1. R Programming
-2. Access
-3. SQL Server
-4. Python
+2. Microsoft Access
+3. Python
+4. SQL 
 
 # R Programming
 
