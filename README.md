@@ -172,10 +172,6 @@ window.mainloop()
 ![PythonDF](https://user-images.githubusercontent.com/82967749/129114851-fb9fa704-b750-46f0-b965-75cbce32792d.PNG)
 
 
-![Access](https://user-images.githubusercontent.com/82967749/129127812-6e032357-f1fa-45de-bb8b-7d7f3cd1f672.PNG)
-![SQLScript](https://user-images.githubusercontent.com/82967749/129127856-65b7619a-e190-4e2c-a4ca-6c4b1032c5fb.PNG)
-
-
 ## SQL 
 
 ![SQLScript](https://user-images.githubusercontent.com/82967749/129127887-9b840e95-1c4f-4eb2-a24c-128d5ff507e8.PNG)
